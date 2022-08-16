@@ -1,8 +1,5 @@
 # terraform-aws-waf
 
-[![Lint Status](https://github.com/DNXLabs/terraform-aws-waf/workflows/Lint/badge.svg)](https://github.com/DNXLabs/terraform-aws-waf/actions)
-[![LICENSE](https://img.shields.io/github/license/DNXLabs/terraform-aws-waf)](https://github.com/DNXLabs/terraform-aws-waf/blob/master/LICENSE)
-
 This terraform module creates two type of WAFv2 Web ACL rules:
   - CLOUDFRONT is a Global rule used in CloudFront Distribution only
   - REGIONAL rules can be used in ALB, API Gateway or AppSync GraphQL API
@@ -117,8 +114,5 @@ module "terraform_aws_wafv2_regional" {
 
 ## Authors
 
-Module managed by [DNX Solutions](https://github.com/DNXLabs).
-
 ## License
 
-Apache 2 Licensed. See [LICENSE](https://github.com/DNXLabs/terraform-aws-waf/blob/master/LICENSE) for full details.
